@@ -1,5 +1,7 @@
 package com.backend.DAO;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -26,5 +28,12 @@ public class ProductDAOImpl implements ProductDAO
 		t.commit();
 		return true;
 	}
+
+	public List getAllProduct() {
+		// TODO Auto-generated method stub
+		return sessionFactory.getCurrentSession().createQuery("from Product").list();
+	}
+
+	
 	
 }

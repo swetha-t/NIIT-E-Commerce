@@ -3,6 +3,9 @@ package com.backend.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
 import org.springframework.stereotype.Component;
 
 @Entity
@@ -15,6 +18,11 @@ public class Product
 	private String Name;
 	private int Quantity;
 	private double Price;
+	
+	
+	/*@ManyToOne
+	@JoinColumn(name="Cateid")
+	*/
 	
 	public int getId() {
 		return Id;
@@ -40,4 +48,6 @@ public class Product
 	public void setPrice(double price) {
 		Price = price;
 	}
+		
+	
 }

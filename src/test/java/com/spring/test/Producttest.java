@@ -44,6 +44,7 @@ public class Producttest
 		product.setName("IPhone 6 plus");
 		product.setQuantity(2);
 		product.setPrice(34000.6);
+	
 		
 		boolean flag=productDAO.saveProduct(product);
 		assertEquals("createProductTestCase", true, flag);
