@@ -16,6 +16,7 @@ import com.backend.model.Category;
 @ComponentScan("com.spring")
 public class CategoryTest 
 {
+	//this is a category class//
 	@Autowired
 	private static CategoryDAO categoryDAO;
 	
