@@ -23,7 +23,7 @@ import com.backend.model.Category;
 import com.backend.model.Product;
 
 @Configuration
-@ComponentScan("com.spring")
+@ComponentScan("com.backend")
 @EnableTransactionManagement
 @Component
 
@@ -33,7 +33,7 @@ public class Dbconfig
 		public DataSource getDataSource() {
 			DriverManagerDataSource dataSource = new DriverManagerDataSource();
 			dataSource.setDriverClassName("org.h2.Driver");
-			dataSource.setUrl("jdbc:h2:tcp://localhost/~/test");
+			dataSource.setUrl("jdbc:h2:tcp://localhost/~/test1");
 			dataSource.setUsername("sa");
 			dataSource.setPassword("sa");
 			System.out.println("Datasource");

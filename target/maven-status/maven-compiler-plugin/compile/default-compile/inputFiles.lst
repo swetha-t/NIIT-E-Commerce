@@ -1,4 +1,7 @@
-F:\workspace\Hibernate1\src\main\java\com\backend\model\Product.java
-F:\workspace\Hibernate1\src\main\java\com\backend\DAO\ProductDAOImlpe.java
-F:\workspace\Hibernate1\src\main\java\com\backend\config\Dbconfig.java
-F:\workspace\Hibernate1\src\main\java\com\backend\DAO\ProductDAO.java
+E:\Hibernate1\src\main\java\com\backend\model\Category.java
+E:\Hibernate1\src\main\java\com\backend\DAO\ProductDAOImpl.java
+E:\Hibernate1\src\main\java\com\backend\DAO\CategoryDAO.java
+E:\Hibernate1\src\main\java\com\backend\config\Dbconfig.java
+E:\Hibernate1\src\main\java\com\backend\model\Product.java
+E:\Hibernate1\src\main\java\com\backend\DAO\CategoryImpl.java
+E:\Hibernate1\src\main\java\com\backend\DAO\ProductDAO.java

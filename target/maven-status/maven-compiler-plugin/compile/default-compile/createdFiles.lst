@@ -1,4 +1,7 @@
+com\backend\DAO\ProductDAOImpl.class
+com\backend\DAO\CategoryImpl.class
+com\backend\model\Category.class
 com\backend\config\Dbconfig.class
+com\backend\DAO\CategoryDAO.class
 com\backend\model\Product.class
 com\backend\DAO\ProductDAO.class
-com\backend\DAO\ProductDAOImlpe.class

@@ -1,5 +1,4 @@
 package com.spring.test;
-
 import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -41,12 +40,14 @@ public class Producttest
 	public void createProduct()
 	{
 		Product product =new Product();
-		product.setName("IPhone 6 plus");
-		product.setQuantity(2);
-		product.setPrice(34000.6);
-	
+		product.setName("iphone 7");
+		product.setQuantity(1);
+		product.setPrice(72000);
 		
+	
 		boolean flag=productDAO.saveProduct(product);
 		assertEquals("createProductTestCase", true, flag);
 	}
 }
+
+
