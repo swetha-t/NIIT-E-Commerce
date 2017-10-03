@@ -19,8 +19,11 @@ import com.backend.DAO.CategoryDAO;
 import com.backend.DAO.CategoryImpl;
 import com.backend.DAO.ProductDAO;
 import com.backend.DAO.ProductDAOImpl;
+import com.backend.DAO.UserDao;
+import com.backend.DAO.UserDaoImpl;
 import com.backend.model.Category;
 import com.backend.model.Product;
+import com.backend.model.User;
 
 @Configuration
 @ComponentScan("com.backend")
@@ -87,4 +90,5 @@ public class Dbconfig
 	{
 		return new CategoryImpl(sessionFactory);
 	}
+	
 }

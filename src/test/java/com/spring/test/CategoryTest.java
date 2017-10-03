@@ -36,8 +36,8 @@ public class CategoryTest
 	public void createCategory()
 	{
 		Category category=new Category();
-		category.setCategoryName("Mobile OS");
-		category.setCategoryDescription("OS");
+		category.setCategoryName("MOTO");
+		category.setCategoryDescription("Andriod ");
 		boolean flag=categoryDAO.saveCategory(category);
 		assertEquals("createCategoryTestCase", true, flag);
 		
